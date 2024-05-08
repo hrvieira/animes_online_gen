@@ -1,0 +1,124 @@
+<!DOCTYPE html> <!-- é utilizada para indicar ao navegador qual versão do HTML está sendo utilizada -->
+<html lang="pt-br">
+
+<head>
+    <meta name="description" content="Meu Portfólio">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animes Online</title>
+    <script type="text/javascript"
+        src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=fdqx4IefOPjRjpAUSCJBtx1XJXU2GDDP7-y0jhmSe0YjJGl9QPMXwBZpGmEz81sw3nLNUvArsjpCTLhQhr1OY_ACYzeXqK6VjXPCP0FH4z2XDBmXFfa6u1EY0p-tO2uhqpnOhuuxcFVcsMMI6ZDow7Z5Z_y5qgL_yG6eNzNAeujbB8Ndp_e6efn-bWgHGowDIDniHnGbKnQjiULyzUgMsqACuj96fzH3Y-Jfs0aSoLWvDWGrTX2MeqHZBz0dCNIAUtxk1pHPplXNBwPyiDfd6g"
+        charset="UTF-8"></script>
+</head>
+
+<body>
+    <header>
+        <div style="display: flex; justify-content: space-around; height: 80px; align-items: center;" id="header">
+            <div id="titulo">
+                <h1>One Piece</h1>
+            </div>
+            <div style="display: flex; flex-direction: column; height: px; justify-content: space-evenly;" id="validador">
+                <h4 style="margin: 5px;">Gosta de animes</h4>
+                <div>
+                    <label for="amarelo">
+                        <input style="margin-bottom: 5px;" type="radio" name="cor" value="amarelo">
+                        Sim
+                    </label>
+                    <label for="vermelho">
+                        <input type="radio" name="cor" value="vermelho">
+                        Não
+                    </label>
+                </div>
+            </div>
+            <div style="width: 100px ; display: flex; justify-content: space-between;" id="menu">
+                <nav style="align-items: center;">
+                    <ul style="width: 100px; display: flex; flex-direction: column; justify-content: space-between;">
+                        <li><a style="text-decoration: none;" href="#home">Home</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="home">
+            <article id="home_imagem">
+                <img width="100%" 
+                    style="display: flex; background-position: center;background-size: 100%; background-repeat: no-repeat;" src="https://pa1.aminoapps.com/6440/ea0613bfdf9ecfca61ff8987f85f4caaae0d46e8_hq.gif"
+                    alt="">
+            </article>
+            <article id="home_texto">
+                <h2>Bem-vindo a grande caçada de One Piece</h2>
+                <p>O capitão Luffy navega com sua tripulação à procura de um tesouro que pode torná-lo o novo rei dos
+                    piratas.</p>
+                <a target="_blank" href="video.html">
+                    Assista ao trailer
+                </a>
+            </article>
+        </section>
+        <section id="contato">
+            <article id="redes_sociais">
+                <h4>Contact Me</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quod error veniam in voluptatem magni quisquam</p>
+
+                <div id="icones_redes_sociais">
+                    <a href="">
+                        <img width="30px" src="https://img.icons8.com/?size=256&id=447&format=png" alt="LinkedIn" />
+                    </a>
+                    <a href="">
+                        <img width="30px" src="https://img.icons8.com/?size=256&id=32292&format=png" alt="Instagram" />
+                    </a>
+                </div>
+            </article>
+
+            <!-- Seção do Formulário-->
+            <form style="display: flex; flex-direction: column; width: 300px;" action="" method="POST">
+                <input style="margin-top: 10px;" type="hidden" name="_next" value="">
+                <input type="hidden" name="_captcha" value="false">
+
+                <label style="margin-top: 10px;" for="nome"><strong>Nome: </strong></label>
+                <input id="nome" type="text" name="name" placeholder="Digite seu nome" required>
+
+                <label style="margin-top: 10px;" for="email"><strong>Email: </strong></label>
+                <input id="email" type="email" name="email" placeholder="Digite seu email" required>
+
+                <label style="margin-top: 10px;" for="subject"><strong>Assunto: </strong></label>
+                <input id="subject" type="text" name="subject" placeholder="Digite o título da mensagem" required>
+
+                <label style="margin-top: 10px;" for="message"><strong>Mensagem: </strong></label>
+                <textarea id="message" name="message" placeholder="Digite sua mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Rodapé da Página (footer) -->
+    <footer id="footer" style="display: flex; flex-direction: column; align-items: center;">
+        <span id="copy"><br>
+            © 2024 -
+            <a class="linkF" href=" https://portfolio-vieira-dev.vercel.app/">
+                hrvieira.dev</a></span>
+        <nav>
+            <ul>
+                <li>
+                    <a href="https://www.linkedin.com/in/luizhrvieira/">
+                        <p>
+                            LinkedIn
+                        </p>
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:luizhrvieira@outlook.com" target="_blank">
+                        <p>
+                            E-mail
+                        </p>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>
