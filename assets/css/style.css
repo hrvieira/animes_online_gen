@@ -1,0 +1,11 @@
+*, header, #header, main, footer {
+     font-family: "Roboto", sans-serif;
+     --azul-escuro: #104abd;
+     --branco: #edf8ff;
+}
+
+.links {
+     text-decoration: none;
+     list-style: none;
+     color: inherit;
+}
