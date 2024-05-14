@@ -74,33 +74,22 @@
 
                 <div id="icones_redes_sociais">
                     <a href="">
-                        <img width="30px" src="https://img.icons8.com/?size=256&id=447&format=png" alt="LinkedIn" />
+                        <img src="https://img.icons8.com/?size=256&id=447&format=png" alt="LinkedIn" />
                     </a>
                     <a href="">
-                        <img width="30px" src="https://img.icons8.com/?size=256&id=32292&format=png" alt="Instagram" />
+                        <img src="https://img.icons8.com/?size=256&id=32292&format=png" alt="Instagram" />
                     </a>
                 </div>
             </article>
 
-            <!-- Seção do Formulário-->
-            <form style="display: flex; flex-direction: column; width: 300px;" action="" method="POST">
-                <input style="margin-top: 10px;" type="hidden" name="_next" value="">
-                <input type="hidden" name="_captcha" value="false">
-
-                <label style="margin-top: 10px;" for="nome"><strong>Nome: </strong></label>
-                <input id="nome" type="text" name="name" placeholder="Digite seu nome" required>
-
-                <label style="margin-top: 10px;" for="email"><strong>Email: </strong></label>
-                <input id="email" type="email" name="email" placeholder="Digite seu email" required>
-
-                <label style="margin-top: 10px;" for="subject"><strong>Assunto: </strong></label>
-                <input id="subject" type="text" name="subject" placeholder="Digite o título da mensagem" required>
-
-                <label style="margin-top: 10px;" for="message"><strong>Mensagem: </strong></label>
-                <textarea id="message" name="message" placeholder="Digite sua mensagem" required></textarea>
-
-                <button type="submit">Enviar</button>
-            </form>
+            <form id="form-contate">
+                <label>Nome:<br><input type="text" name="nome" id="nome" placeholder="Digite seu nome"></label>
+                <label>Email: <br> <input type="email" name="email" id="email" placeholder="exemplo@exemplo.com"></label>
+                <label>Assunto: <br> <input type="text" name="assunto" placeholder="Projeto"></label>
+                <label>Mensagem:
+                     <textarea id="mensagem" rows="3" name="mensagem" required="" placeholder="Descreva o assunto"></textarea></label>
+                <input id="enviar" type="submit" value="Enviar">
+           </form>
         </section>
     </main>
 

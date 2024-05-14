@@ -37,11 +37,10 @@
 }
 #home-texto > h1 {
      font-weight: bold;
-     font-size: 1rem;
      align-self: center;
-     padding: 1rem 0;
+     padding: 1.2rem 0;
      line-height: 2rem;
-     font-size: 1.8rem;
+     font-size: 2.5rem;
      text-align: center;
 }
 
@@ -54,10 +53,103 @@
 #trailer {
      text-align: center;
      margin: 2rem auto 0;
-     border: solid 2px var(--azul-escuro) ;
      padding: 1rem 2rem;
      text-decoration: none;
      color: var(--branco);
-     background-color: var(--azul-escuro);
+     background-color: var(--azul-claro);
+     transition: .3s;
 }
 
+#contato {
+     width: 90%;
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+     margin-bottom: 4rem;
+     box-sizing: border-box;
+}
+
+#redes_sociais {
+     width: 30%;
+     text-align: center
+}
+
+#redes_sociais > h4 {
+     font-weight: bold;
+     font-size: 1.8rem;
+     align-self: center;
+     padding: 1rem 0;
+     line-height: 2rem;
+     text-align: center;
+}
+
+#icones_redes_sociais {
+     padding: 1rem 0;
+}
+
+#icones_redes_sociais > a > img {
+     width: 3.5rem;
+}
+
+#form-contate {
+     width: 45%;
+     display: flex;
+     flex-direction: column;
+     text-align: left;
+}
+
+#form-contate > label > input, #mensagem {
+     margin-top: .4rem;
+}
+
+#form-contate > label, #form-contate > label > input {
+     margin-bottom: 8px;
+     width: 100%;
+     display: flex;
+     flex-direction: column; 
+}
+
+#form-contate > label > input, #form-contate > label > textarea {
+     padding: .5rem 1rem;
+     border-radius: 1.3rem;
+     box-sizing: border-box;
+     border: solid 2px var(--azul-escuro);     
+}
+
+#form-contate > label > input {
+     margin-bottom: .5rem;
+}
+
+#form-contate {
+     width: 35%;
+}
+
+#enviar {
+     display: flex;
+     width: 100%;
+     justify-content: space-around;
+     background-color: var(--azul-claro);
+     color: var(--branco);
+     padding: .9rem 2rem;
+     margin-top: .3rem;
+     
+     font-weight: 600;
+     text-decoration: none;
+     border-radius: 10px;
+     border: none;
+     cursor: pointer;
+     transition: .2s;
+}
+
+#bt-explorer:hover, #div-quem-sou > a:hover, #enviar:hover, #trailer:hover {
+     background-color: var(--azul-escuro);
+     transition: .2s;
+     
+}
+
+#video {
+     margin: 2rem auto;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+}

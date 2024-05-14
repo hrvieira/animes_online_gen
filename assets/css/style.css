@@ -1,6 +1,7 @@
 *, header, #header, main, footer {
      font-family: "Roboto", sans-serif;
      --azul-escuro: #104abd;
+     --azul-claro: #0870a0;
      --branco: #edf8ff;
 }
 
